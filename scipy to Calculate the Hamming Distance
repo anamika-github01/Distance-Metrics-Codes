@@ -1,0 +1,9 @@
+# Using scipy to Calculate the Hamming Distance
+from scipy.spatial.distance import hamming
+
+values1 = [10, 20, 30, 40]
+values2 = [10, 20, 30, 50]
+
+hamming_distance = hamming(values1, values2)
+
+print(hamming_distance)
